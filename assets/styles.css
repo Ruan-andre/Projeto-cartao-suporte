@@ -8,32 +8,53 @@
 
 }
 
-body {
-
-    margin-left: 50px;
+a {
+    text-decoration: none;
+    color: black;
 }
+
+
 
 .logo {
     position: absolute;
-    padding-top: 29px;
-    padding-left: 32px;
+    width: 213px;
+    height: 94px;
+    left: 32px;
+    top: 29px;
+
+
+
+}
+
+.acesso-informacao {
+    position: absolute;
+    width: 463px;
+    height: 307px;
+    left: 4px;
+    top: 22px;
 
 }
 
 .titulo {
+    position: absolute;
+    width: 321px;
+    height: 26px;
     left: 32px;
     top: 155px;
-    position: absolute;
+
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 24px;
     line-height: 110%;
     /* or 26px */
+
     display: flex;
     align-items: center;
     letter-spacing: -0.025em;
+
     color: #2F2F2F;
+
 }
 
 .subtitulo {
@@ -41,23 +62,66 @@ body {
     width: 700px;
     height: 31px;
     left: 32px;
-    top: 220px;
+    top: 203px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
     color: #505050;
 
 }
 
-.icons{
-    width: 40px;
-    height: 40px;
+.icons {
+    width: 50px;
+    height: 50px;
 
 }
 
-.text-icons{
+.wpp {
+    /* position: absolute;
+    width: 138px;
+    height: 32px;
+    left: 32px;
+    top: 289px; */
+
+    position: absolute;
+    width: 138px;
+    height: 32px;
+    left: 32px;
+    top: 270px;
+
+}
+
+.tel {
+
+    position: absolute;
+    width: 131px;
+    height: 32px;
+    left: 32px;
+    top: 340px;
+
+}
+
+.mail {
+    position: absolute;
+    width: 312px;
+    height: 32px;
+    left: 32px;
+    top: 410px;
+
+}
+
+.address {
+
+    position: absolute;
+    width: 463px;
+    height: 48px;
+    left: 32px;
+    top: 480px;
+}
+
+.text-icons {
     position: absolute;
     top: 10px;
     margin-left: 5px;
@@ -65,9 +129,32 @@ body {
     height: 32px;
 }
 
-.wpp {
+.text-address{
     position: absolute;
-    left: 32px;
-    top: 320px;
+    width: 450px;
+    height: 48px;
+    margin-left: 54px;
+    top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #505050;
+    font-size: 14px;
 }
 
+.text-address-bold{
+    position: absolute;
+    width: 435px;
+    height: 48px;
+    margin-left: 5px;
+    top: -2px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #505050;
+}
