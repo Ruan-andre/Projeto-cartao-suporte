@@ -229,15 +229,10 @@ section {
     line-height: 16px;
 }
 
-img:hover {
+img:not(.logo-agape img):hover {
     -webkit-transition: all 0.7s ease;
-
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 
 }
 
-hr:hover {
-    width: 100px;
-    transition: all 0.7s ease-in-out;
-}
